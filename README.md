@@ -13,19 +13,19 @@ Requires vagrant and virtualbox to be installed.
 
 Additionally vagrant requires the following plugins to be installed
 
-   vagrant plugin install vagrant-omnibus
-   vagrant plugin install vagrant-berkshelf
+    vagrant plugin install vagrant-omnibus
+    vagrant plugin install vagrant-berkshelf
 
 # Usage
 
 Launch vagrant to setup the Devstack working environment
 
-   vagrant up && vagrant ssh
+    vagrant up && vagrant ssh
 
 Now run the Devstack configuration script
 
-   cd /vagrant/devstack
-   ./stack.sh
+    cd /vagrant/devstack
+    ./stack.sh
 
 
 # Attributes
